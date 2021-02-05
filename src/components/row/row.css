@@ -1,0 +1,23 @@
+.box {
+    border: darkred 2px solid;
+    background-color: white;
+    cursor: pointer;
+    height: 20vh;
+    width: 20%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+@media screen and (max-width:720px){
+    .box {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .box {
+        font-size: 28px;
+    }
+}
+
